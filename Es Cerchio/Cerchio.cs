@@ -19,5 +19,10 @@ namespace Es_Cerchio
         {
             return 2 * Math.PI * Raggio;
         }
+
+        public override string ToString()
+        {
+            return string.Format($"Sono un cerchio di raggio: {0}", Raggio);
+        }
     }
 }
